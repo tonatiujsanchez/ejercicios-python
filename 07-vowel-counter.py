@@ -4,7 +4,7 @@ vowels = ['a', 'e', 'i', 'o', 'u']
 def count_of_vowels(word):
     quantity=0
     for letter in word:
-        if( letter in vowels ):
+        if( letter.lower() in vowels ):
             quantity += 1
     
     return quantity
